@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#1976D2</color>         <!-- Medium Blue -->
+    <color name="colorPrimaryDark">#004BA0</color>     <!-- Darker Blue -->
+    <color name="colorAccent">#64B5F6</color>          <!-- Light Blue Accent -->
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#FFFFFF</color>      <!-- White -->
+    <color name="colorSurface">#F5F5F5</color>         <!-- Light grey surface -->
+
+        <color name="gradient_start">#4A90E2</color> <!-- Sky Blue -->
+        <color name="gradient_end">#007AFF</color> <!-- Deep Blue -->
+        <color name="header_card">#1A237E</color> <!-- Indigo -->
+        <color name="white">#FFFFFF</color>
+    <color name="primary_blue">#1D3557</color>
+    <color name="light_blue_bg">#F0F4F8</color>
+
+    <color name="text_dark">#1A1A1A</color>
+    <color name="text_light">#666666</color>
+
+    <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+        <color name="accent">#FF6F00</color> <!-- Amber -->
+        <color name="bottom_nav_bg">#F8F9FA</color> <!-- Light Grey -->
+        <color name="highlight_blue">#00BCD4</color> <!-- Cyan -->
+
+
+    <!-- Text Colors -->
+    <color name="colorOnPrimary">#FFFFFF</color>       <!-- White text on blue -->
+    <color name="colorOnBackground">#212121</color>    <!-- Dark text -->
+    <color name="colorOnSurface">#424242</color>       <!-- Slightly lighter dark text -->
+
+    <!-- Status/Error Colors -->
+    <color name="colorSuccess">#4CAF50</color>         <!-- Green -->
+    <color name="colorError">#D32F2F</color>           <!-- Red -->
+    <color name="colorWarning">#FFA000</color>         <!-- Amber -->
+
+    <!-- Optional Blues -->
+    <color name="blueLight">#BBDEFB</color>
+    <color name="blueMid">#2196F3</color>
+    <color name="deep_blue">#0D47A1</color>
+
+    <!-- Transparent Variants -->
+    <color name="blueTransparent50">#801976D2</color>
+    <color name="overlayLight">#80000000</color>
 </resources>
