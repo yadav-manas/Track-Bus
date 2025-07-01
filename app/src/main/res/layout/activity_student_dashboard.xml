@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Frame1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_blue_bg">
@@ -17,6 +18,7 @@
         card_view:cardBackgroundColor="@color/primary_blue">
 
         <RelativeLayout
+            android:id="@+id/RelativeMain"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="20dp">
@@ -26,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SmartBus"
-                android:textSize="22sp"
+                android:textSize="28sp"
                 android:textStyle="bold"
                 android:textColor="@color/white" />
 
@@ -47,16 +49,16 @@
                 android:layout_below="@id/dashboardTitle"
                 android:layout_marginTop="6dp"
                 android:text="Student info"
-                android:textSize="12sp"
-                android:textColor="#E0E0E0" />
+                android:textSize="15sp"
+                android:textColor="#FFFFFF" />
 
             <ImageView
-                android:id="@+id/profileIcon"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:id="@+id/bus_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="4dp"
-                android:src="@drawable/user_24"
+                android:src="@drawable/bus_logo"
                 android:background="@drawable/bg_circle_white"
                 android:scaleType="centerInside"
                 android:padding="6dp" />
@@ -82,6 +84,7 @@
             android:padding="25dp">
 
             <TextView
+                android:id="@+id/studentGreeting"
                 android:text="Hello, [Student Name]"
                 android:textStyle="bold"
                 android:textSize="16sp"
@@ -91,6 +94,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/busAssignedText"
                 android:text="Bus Assigned: Bus No. 12"
                 android:textColor="@color/text_light"
                 android:textSize="14sp"
@@ -100,6 +104,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/crnText"
                 android:text="CRN: 234567"
                 android:textColor="@color/text_light"
                 android:textSize="14sp"
@@ -125,6 +130,7 @@
 
             <!-- View Bus Location -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/viewBusCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -145,6 +151,7 @@
                         android:src="@drawable/roadmap_24" />
 
                     <TextView
+                        android:id="@+id/viewBusText"
                         android:text="View Bus Location"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -157,6 +164,7 @@
 
             <!-- My Attendance -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/attendanceCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 card_view:cardCornerRadius="12dp"
@@ -176,6 +184,7 @@
                         android:src="@drawable/calendar_clock_24" />
 
                     <TextView
+                        android:id="@+id/attendanceText"
                         android:text="My Attendance"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -200,6 +209,7 @@
         android:gravity="center">
 
         <LinearLayout
+            android:id="@+id/homeLayout"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -207,25 +217,23 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/house_chimney_24"
-        />
-            <TextView
-                android:text="Home"
-                android:textSize="10sp"
-                android:textColor="@color/text_dark" />
+                android:id="@+id/homeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/house_chimney_24" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/notificationLayout"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_height="match_parent"
-            card_view:tint="@color/white">
+            android:layout_height="match_parent">
 
             <ImageView
+                android:id="@+id/notificationIcon"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:background="@drawable/bg_circle_blue"
@@ -233,15 +241,18 @@
                 android:padding="6dp"
                 android:tint="@color/white"
                 tools:ignore="UseAppTint" />
+
             <TextView
+                android:id="@+id/notificationText"
                 android:text="Notifications"
                 android:textSize="10sp"
                 android:textColor="@color/primary_blue"
-                android:layout_height="0dp"
-                android:layout_width="10dp"/>
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/profileLayout"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -249,16 +260,19 @@
             android:layout_height="match_parent">
 
             <ImageView
+                android:id="@+id/profileIcon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/user_24"
                 android:tint="@color/text_dark"
                 tools:ignore="UseAppTint" />
+
             <TextView
+                android:id="@+id/profileText"
                 android:text="Profile"
                 android:textSize="10sp"
-                android:layout_height="0dp"
-                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
                 android:textColor="@color/text_dark" />
         </LinearLayout>
     </LinearLayout>
