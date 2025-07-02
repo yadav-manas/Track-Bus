@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Track Bus</string>
+=======
+    <string name="app_name">Bus tracker</string>
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
 </resources>

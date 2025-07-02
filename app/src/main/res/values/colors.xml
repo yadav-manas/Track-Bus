@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- Primary Colors -->
     <color name="colorPrimary">#1976D2</color>         <!-- Medium Blue -->
     <color name="colorPrimaryDark">#004BA0</color>     <!-- Darker Blue -->
@@ -48,5 +49,16 @@
     <color name="smartbus_blue">#007BFF</color> <!-- Top Bar and Icons -->
     <color name="text_hint_gray">#555555</color> <!-- Sub-heading -->
     <color name="text_black">#000000</color> <!-- Primary Title -->
-    <color name="card_elevation_shadow">#BDBDBD</color> <!-- Optional card shadow -->
+    <color name="card_elevation_shadow">#BDBDBD</color>
+    <color name="light_blue">#5C9EFF</color>       <!-- Button BG -->
+    <color name="green">#4CAF50</color>
+    <color name="blue">#3F51B5</color>
+    <color name="red">#F44336</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="black">#212121</color>
+    <!-- Optional card shadow -->
 </resources>
+
+
+
+

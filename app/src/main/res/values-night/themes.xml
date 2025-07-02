@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.TrackBus" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.BusTracker" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

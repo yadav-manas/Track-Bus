@@ -4,6 +4,9 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Track-Bus" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Track-Bus/Track-Bus" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/Track-Bus/Track-Bus/Track-Bus" vcs="Git" />
+=======
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
   </component>
 </project>
