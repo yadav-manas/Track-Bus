@@ -12,26 +12,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrackBus"
         tools:targetApi="31">
+        <activity
+            android:name=".Activity_Role_selection"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- ✅ App launch yahin se hoga -->
         <activity
             android:name=".Student_Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- ✅ All other activities (no launcher flags) -->
-        <activity android:name=".MainActivity" android:exported="true" />
-        <activity android:name=".NotificationActivity" android:exported="true" />
-        <activity android:name=".ProfileActivity" android:exported="false" />
-        <activity android:name=".AttendanceActivity" android:exported="false" />
-        <activity android:name=".BusLocationActivity" android:exported="true" />
-        <activity android:name=".Student_Dashboard" android:exported="true" />
-        <activity android:name=".Admin_Activity" android:exported="true" />
-
+        </activity> <!-- ✅ All other activities (no launcher flags) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusLocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Student_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Activity"
+            android:exported="true" />
     </application>
 
 </manifest>
