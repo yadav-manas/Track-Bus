@@ -15,7 +15,7 @@
         android:layout_gravity="top"
         card_view:cardCornerRadius="24dp"
         card_view:cardElevation="0dp"
-        card_view:cardBackgroundColor="@color/primary_blue">
+        card_view:cardBackgroundColor="@color/blueMid">
 
         <RelativeLayout
             android:id="@+id/RelativeMain"

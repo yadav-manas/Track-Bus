@@ -9,24 +9,18 @@
     <color name="colorBackground">#FFFFFF</color>      <!-- White -->
     <color name="colorSurface">#F5F5F5</color>         <!-- Light grey surface -->
 
-        <color name="gradient_start">#4A90E2</color> <!-- Sky Blue -->
-        <color name="gradient_end">#007AFF</color> <!-- Deep Blue -->
-        <color name="header_card">#1A237E</color> <!-- Indigo -->
-        <color name="white">#FFFFFF</color>
+    <color name="gradient_start">#4A90E2</color> <!-- Sky Blue -->
+    <color name="gradient_end">#007AFF</color> <!-- Deep Blue -->
+    <color name="header_card">#1A237E</color> <!-- Indigo -->
+    <color name="white">#FFFFFF</color>
     <color name="primary_blue">#1D3557</color>
     <color name="light_blue_bg">#F0F4F8</color>
 
+    <!-- Text Colors -->
     <color name="text_dark">#1A1A1A</color>
     <color name="text_light">#666666</color>
-
     <color name="text_primary">#212121</color>
-        <color name="text_secondary">#757575</color>
-        <color name="accent">#FF6F00</color> <!-- Amber -->
-        <color name="bottom_nav_bg">#F8F9FA</color> <!-- Light Grey -->
-        <color name="highlight_blue">#00BCD4</color> <!-- Cyan -->
-
-
-    <!-- Text Colors -->
+    <color name="text_secondary">#757575</color>
     <color name="colorOnPrimary">#FFFFFF</color>       <!-- White text on blue -->
     <color name="colorOnBackground">#212121</color>    <!-- Dark text -->
     <color name="colorOnSurface">#424242</color>       <!-- Slightly lighter dark text -->
@@ -44,4 +38,15 @@
     <!-- Transparent Variants -->
     <color name="blueTransparent50">#801976D2</color>
     <color name="overlayLight">#80000000</color>
+    
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_bg">#F8F9FA</color> <!-- Light Grey -->
+    <color name="highlight_blue">#00BCD4</color> <!-- Cyan -->
+
+    <!-- NEW Colors used in layout -->
+    <color name="smartbus_blue">#007BFF</color> <!-- Top Bar and Icons -->
+    <color name="text_hint_gray">#555555</color> <!-- Sub-heading -->
+    <color name="text_black">#000000</color> <!-- Primary Title -->
+    <color name="card_elevation_shadow">#BDBDBD</color> <!-- Optional card shadow -->
 </resources>
