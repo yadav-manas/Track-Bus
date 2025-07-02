@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Internshipwork" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+<<<<<<< HEAD
+    <style name="Base.Theme.TrackBus" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.BusTracker" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
+>>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<<<<<<< HEAD
     <style name="Theme.Internshipwork" parent="Base.Theme.Internshipwork" />
+=======
+<<<<<<< HEAD
+    <style name="Theme.TrackBus" parent="Base.Theme.TrackBus" />
+=======
+    <style name="Theme.BusTracker" parent="Base.Theme.BusTracker" />
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
+>>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
 </resources>

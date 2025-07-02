@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.ashu.internshipwork"
     compileSdk = 36
 
@@ -10,6 +11,15 @@ android {
         applicationId = "com.ashu.internshipwork"
         minSdk = 24
         targetSdk = 36
+=======
+    namespace = "com.example.bustracker"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.bustracker"
+        minSdk = 24
+        targetSdk = 35
+>>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
         versionCode = 1
         versionName = "1.0"
 

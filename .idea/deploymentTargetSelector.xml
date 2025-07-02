@@ -4,6 +4,20 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <DropdownSelection timestamp="2025-07-01T19:04:08.438382Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\trive\.android\avd\Pixel_9.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+=======
+>>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
+>>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
       </SelectionState>
     </selectionStates>
   </component>

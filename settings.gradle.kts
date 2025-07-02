@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "internshipwork"
+=======
+rootProject.name = "Bus tracker"
+>>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
 include(":app")
  

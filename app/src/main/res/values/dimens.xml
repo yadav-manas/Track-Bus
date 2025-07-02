@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_height">240dp</dimen>
+    <dimen name="card_radius">24dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="large_margin">20dp</dimen>
+    <dimen name="profile_icon_size">36dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="text_margin_top">4dp</dimen>
+    <dimen name="card_overlap_marginTop">180dp</dimen>
+    <dimen name="scroll_start_margin">300dp</dimen>
+    <dimen name="bottom_nav_height">70dp</dimen>
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="notification_icon_size">56dp</dimen>
+    <dimen name="icon_padding">16dp</dimen>
+</resources>
