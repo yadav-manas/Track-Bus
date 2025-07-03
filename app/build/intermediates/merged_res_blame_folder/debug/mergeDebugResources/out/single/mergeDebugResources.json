@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_driver_dashboard.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_driver_dashboard.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_circle_white.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_circle_white.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_gradient.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_role_selection.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_role_selection.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_driver_login.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_driver_login.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_adminbg.jpg.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/adminbg.jpg"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bt__logo.png.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bt__logo.png"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_img_1.png.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/img_1.png"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bus_map_logo.jpg.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bus_map_logo.jpg"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_direction_signal.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/direction_signal.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_status_red.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/status_red.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_stop_svgrepo_com.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/stop_svgrepo_com.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_blue_gradient_bg.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/blue_gradient_bg.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_house_chimney_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/house_chimney_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_track_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_track_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_admin.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_arrow_small_left_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/arrow_small_left_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_header.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_header.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_status_green.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/status_green.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_add_driver.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_add_driver.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bus_logo.jpg.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bus_logo.jpg"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_item_student.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_envelope_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/envelope_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/menu_driver_bottom_nav.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/menu/driver_bottom_nav.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_user_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/user_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_student_login.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_student_login.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_img.png.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/img.png"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_home.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/home.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_track_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_track_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_attendance.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_attendance.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_item_manage_card.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/item_manage_card.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bell_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bell_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_manage_data.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_manage_data.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_item_manage.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/item_manage.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bus_real.png.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bus_real.png"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_add_student.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_add_student.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_dialog_edit_student.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/dialog_edit_student.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_edittext_bg.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_item_driver.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/item_driver.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_lock_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/lock_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_profile.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_view_attendance.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_view_attendance.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_driver_man.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/driver_man.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/font_poppins_bold.ttf.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_student_login.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/student_login.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_calendar_lines_pen_svgrepo_com.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/calendar_lines_pen_svgrepo_com.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_driver_login.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/driver_login.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_dialog_edit_driver.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/dialog_edit_driver.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_add_student.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_add_student.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_item_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/item_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_calendar_clock_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/calendar_clock_24.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_map_marker.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/map_marker.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_circle_blue.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_circle_blue.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_user.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/user.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_circle.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_box_bg.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/box_bg.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_rounded_edittext.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/rounded_edittext.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_bus_location.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_bus_location.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_dialog_edit_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/dialog_edit_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_user_check.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/user_check.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_notification.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_add_bus.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_add_bus.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_card.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_edit_delete.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_edit_delete.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bg_card_white.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bus_path.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bus_path.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bell.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bell.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_view_attendance.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_view_attendance.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/layout_activity_student_dashboard.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/layout/activity_student_dashboard.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_bus_logo2.jpg.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/bus_logo2.jpg"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "com.ashu.internshipwork.app-debug-32:/drawable_roadmap_24.xml.flat",
+        "source": "com.ashu.internshipwork.app-main-34:/drawable/roadmap_24.xml"
+    }
+]
