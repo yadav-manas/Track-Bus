@@ -1,13 +1,5 @@
 [versions]
-<<<<<<< HEAD
 agp = "8.11.0"
-=======
-<<<<<<< HEAD
-agp = "8.9.1"
-=======
-agp = "8.10.1"
->>>>>>> 325ddaae6a0834ad35fa6acc36956da8294c595b
->>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -27,4 +19,3 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-

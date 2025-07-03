@@ -1,248 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/adminbg"
-    android:id="@+id/main">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginBottom="16dp"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Welcome, Admin!"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="#FFFFFF" />
-        </LinearLayout>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-60dp"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="10dp"
-            android:layout_marginHorizontal="4dp"
-            app:cardBackgroundColor="#567DFF">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:padding="16dp">
-
-                <TextView
-                    android:id="@+id/tvBusTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SmartBus"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:textColor="#FFFFFF" />
-
-                <TextView
-                    android:id="@+id/tvBusLive"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="2 buses live"
-                    android:layout_below="@id/tvBusTitle"
-                    android:layout_marginTop="8dp"
-                    android:textColor="#D8EFFF" />
-
-                <ImageView
-                    android:id="@+id/ivProfile"
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_android_black_24dp"
-                    android:background="@drawable/bg_circle"
-                    android:padding="6dp" />
-            </RelativeLayout>
-        </androidx.cardview.widget.CardView>
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:columnCount="2"
-            android:rowCount="3"
-            android:alignmentMode="alignMargins"
-            android:useDefaultMargins="true">
-
-            <LinearLayout
-                android:id="@+id/cardAddBus"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_bus" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Add Bus"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/cardAddStudent"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_add_student" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Add Student"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/cardTrackBus"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_track_bus" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Track Bus"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/cardViewAttendance"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_view_attendance" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="View Attendance"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/cardEditDelete"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_edit_delete" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edit/Delete"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/cardAddDriver"
-                android:orientation="vertical"
-                android:background="@drawable/bg_card_white"
-                android:layout_width="0dp"
-                android:layout_height="160dp"
-                android:layout_columnWeight="1"
-                android:gravity="center"
-                android:layout_margin="8dp"
-                android:elevation="4dp"
-                android:padding="16dp">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/ic_add_student" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Add driver"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp" />
-            </LinearLayout>
-        </GridLayout>
-    </LinearLayout>
-</ScrollView>
-=======
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -372,5 +127,95 @@
                 android:shadowRadius="1" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Bus"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Driver"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardTrackBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track Bus"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Attendance"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardEditDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit/Delete"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:textColor="#1976D2"/>
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>
->>>>>>> 6bc44f99e3ae3f61cbd746fbed24817a4199b200

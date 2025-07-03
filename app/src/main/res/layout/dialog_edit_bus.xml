@@ -26,4 +26,4 @@
         android:hint="Capacity"
         android:inputType="number" />
 
-</LinearLayout>
+</LinearLayout> 
