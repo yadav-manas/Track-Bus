@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FA">
+
+  <!-- Header -->
+  <RelativeLayout
+      android:id="@+id/notification"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#0D4CAB"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arrow_small_left"
+        app:tint="@android:color/white"/>
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/emptyStateText"
+      android:layout_below="@+id/notification"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="No notifications to show"
+      android:textColor="#888888"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:padding="24dp"
+      android:visibility="visible" />
+
+  <!-- Notification List -->
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/notificationsRecyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="12dp"
+      android:clipToPadding="false"
+      android:scrollbars="vertical"
+      android:visibility="gone"/>
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNavigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:background="@color/white"
+      app:menu="@menu/driver_bottom_nav" />
+</RelativeLayout>
